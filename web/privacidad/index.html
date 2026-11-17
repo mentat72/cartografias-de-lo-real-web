@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plantilla de privacidad de CDLR: funcionamiento local del explorador, preferencia de tema y datos del alojamiento por completar.">
+  <meta name="theme-color" content="#0A0A0A">
+  <title>Privacidad — Cartografías de lo Real</title>
+  <script data-cdlr-tema>
+    (function(){var t;try{t=localStorage.getItem('cartografias-tema')}catch(e){}var c=t==='claro'||(t!=='oscuro'&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches);var r=document.documentElement;r.classList.toggle('tema-claro',!!c);r.style.colorScheme=c?'light':'dark';var m=document.querySelector('meta[name="theme-color"]');if(m)m.content=c?'#E8E4D9':'#0A0A0A'})();
+  </script>
+  <link rel="stylesheet" href="../css/identidad-cdlr.css?v=fase4-1">
+  <link rel="icon" href="../assets/identidad/simbolos/favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="../assets/identidad/simbolos/favicon.ico">
+  <link rel="apple-touch-icon" href="../assets/identidad/simbolos/icon-180.png">
+  <link rel="preload" href="../assets/identidad/tipografias/CDLR-Editorial-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="../js/app.js?v=fase3-1" defer></script>
+<!-- CDLR:SEO -->
+<meta name="robots" content="noindex,follow">
+<meta property="og:title" content="Privacidad — Cartografías de lo Real">
+<meta property="og:description" content="Plantilla de privacidad de CDLR: funcionamiento local del explorador, preferencia de tema y datos del alojamiento por completar.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cartografías de lo Real">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Privacidad — Cartografías de lo Real">
+<meta name="twitter:description" content="Plantilla de privacidad de CDLR: funcionamiento local del explorador, preferencia de tema y datos del alojamiento por completar.">
+<link rel="canonical" href="https://mentat72.github.io/cartografias-de-lo-real-web/privacidad/">
+<meta property="og:url" content="https://mentat72.github.io/cartografias-de-lo-real-web/privacidad/">
+<meta property="og:image" content="https://mentat72.github.io/cartografias-de-lo-real-web/assets/identidad/social/cdlr-og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Cartografías de lo Real. Filosofía, tecnología y cultura.">
+<meta name="twitter:image" content="https://mentat72.github.io/cartografias-de-lo-real-web/assets/identidad/social/cdlr-og.png">
+<meta name="twitter:image:alt" content="Cartografías de lo Real. Filosofía, tecnología y cultura.">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"Cartografías de lo Real","description":"Revista independiente sobre filosofía, tecnología y cultura.","inLanguage":"es","@id":"https://mentat72.github.io/cartografias-de-lo-real-web/#website","url":"https://mentat72.github.io/cartografias-de-lo-real-web/"},{"@type":"WebPage","name":"Privacidad — Cartografías de lo Real","description":"Plantilla de privacidad de CDLR: funcionamiento local del explorador, preferencia de tema y datos del alojamiento por completar.","inLanguage":"es","@id":"https://mentat72.github.io/cartografias-de-lo-real-web/privacidad/#webpage","url":"https://mentat72.github.io/cartografias-de-lo-real-web/privacidad/","isPartOf":{"@id":"https://mentat72.github.io/cartografias-de-lo-real-web/#website"}}]}</script>
+<!-- /CDLR:SEO -->
+</head>
+<body><a class="salto" href="#contenido">Saltar al contenido</a><header class="cabecera"><div class="contenedor cabecera-interior"><a class="marca" href="../index.html"><img class="marca-imagen" src="../assets/identidad/logos/cdlr-horizontal-hueso.svg" width="1060" height="150" alt="" aria-hidden="true"><span class="marca-texto"><span class="simbolo" aria-hidden="true">⌁</span> CARTOGRAFÍAS<span class="marca-final">/DE LO REAL</span></span></a><nav class="menu" aria-label="Navegación principal"><a href="../index.html#ensayos">Ensayos</a><a href="../biblioteca/index.html">Biblioteca</a><a href="../index.html#territorios">Territorios</a><a href="../index.html#explorador">Explorador</a><a href="../index.html#boletin">Boletín</a></nav><button id="boton-tema" class="boton-icono" type="button" aria-label="Cambiar modo de color" title="Cambiar modo de color">◐</button></div></header><main id="contenido"><section class="articulo-portada"><div class="contenedor"><p class="supratitulo">DATOS Y TRANSPARENCIA / PLANTILLA</p><h1>Privacidad</h1><p class="entradilla">Qué hace el código actual y qué información debe completarse antes de publicar el sitio.</p></div></section><article class="contenedor articulo-detalle contenido-editorial"><aside class="aviso-revision" role="note" aria-label="Estado de esta plantilla"><h2>Plantilla pendiente de completar</h2><p>Completa los datos marcados y solicita la revisión de un gestor o abogado antes de publicar. Este borrador no constituye asesoramiento jurídico o fiscal definitivo.</p></aside>
+<h2>Responsable y contacto</h2>
+<p>Responsable del tratamiento: <span class="dato-pendiente">[COMPLETAR: titular legal y domicilio]</span>. Contacto para protección de datos: <span class="dato-pendiente">[COMPLETAR: correo y vía efectiva de ejercicio de derechos]</span>. <span class="dato-pendiente">[COMPLETAR: representante o delegado de protección de datos, únicamente si corresponde]</span></p>
+<h2 id="explorador">El explorador funciona en tu navegador</h2>
+<p>El explorador ya no pide un nombre. Con JavaScript, el territorio seleccionado permite mostrar una ruta de tres lecturas en esta página, sin enviar la selección a un servidor ni guardarla en el almacenamiento local. Guardar la ruta genera un archivo de texto en tu dispositivo. Sin JavaScript, el formulario abre el índice de guías: el territorio viaja en la URL como parámetro y podría figurar en los registros del alojamiento. Ninguna de estas acciones crea una suscripción.</p>
+<h2>Tu preferencia de tema</h2>
+<p>Al elegir modo claro u oscuro, el sitio intenta guardar esa elección en tu navegador mediante <code>localStorage</code>, con la clave <code>cartografias-tema</code>. Si no hay elección propia, consulta el tema del sistema. La preferencia puede permanecer hasta que la borres; si el navegador impide guardarla, el botón sigue funcionando durante la visita.</p>
+<h2>Lo comprobado en esta versión</h2>
+<p>El código revisado no incorpora analítica, píxeles de seguimiento, formularios de suscripción activos ni scripts que creen cookies. Las fuentes y las imágenes de la interfaz se sirven desde los recursos del sitio.</p>
+<h2>Alojamiento y registros: información pendiente</h2>
+<p>El proveedor de alojamiento puede gestionar datos técnicos necesarios para servir las páginas, como direcciones IP o registros de acceso. Su configuración no está acreditada en estos archivos.</p>
+<dl class="datos-editoriales">
+<dt>Proveedor y ubicación</dt><dd><span class="dato-pendiente">[COMPLETAR: alojamiento, país y ubicación de datos]</span></dd>
+<dt>Datos, finalidad y base jurídica</dt><dd><span class="dato-pendiente">[COMPLETAR: registros reales, finalidad y fundamento aplicable a cada tratamiento]</span></dd>
+<dt>Conservación</dt><dd><span class="dato-pendiente">[COMPLETAR: plazos o criterios efectivos de conservación y borrado]</span></dd>
+<dt>Encargados, destinatarios y transferencias</dt><dd><span class="dato-pendiente">[COMPLETAR: proveedores, comunicaciones y transferencias internacionales si existen, junto con las garantías aplicables]</span></dd>
+</dl>
+<h2 id="correo">Contactos y futuros servicios</h2>
+<p><span class="dato-pendiente">[COMPLETAR: si se habilita un correo de contacto, describir finalidad, datos, base jurídica, conservación y proveedores de correo]</span></p>
+<p>Los formularios de boletín y de entrega de rutas por email están preparados, pero desactivados: no recogen ni envían direcciones. Son servicios separados y sus casillas de consentimiento no están premarcadas. Pedir una ruta no implica apuntarse al boletín. Al activarlos, el envío se realizará al proveedor solo tras la acción expresa de la persona; el proveedor deberá confirmar el resultado y gestionar cualquier verificación de dirección que corresponda. No se simula un doble opt-in. Antes de activar cada servicio, deberán completarse y revisarse la información básica mostrada junto al formulario y esta política.</p>
+<dl class="datos-editoriales"><dt>Boletín: tratamiento previsto</dt><dd><span class="dato-pendiente">[COMPLETAR: finalidad editorial, consentimiento, proveedor y datos de la suscripción, frecuencia real, conservación hasta la baja y gestión efectiva de retirada y derechos]</span></dd><dt>Entrega de una ruta: tratamiento independiente</dt><dd><span class="dato-pendiente">[COMPLETAR: proveedor que entrega la ruta solicitada, datos recibidos, finalidad de un único envío, consentimiento, conservación y borrado, sin alta automática en el boletín]</span></dd><dt>Destinatarios y transferencias de los servicios de correo</dt><dd><span class="dato-pendiente">[COMPLETAR: contratos, subencargados, países, garantías, registro de consentimiento y funcionamiento real del honeypot en el servidor]</span></dd></dl><h2>Derechos y reclamaciones</h2>
+<p>Según el tratamiento, pueden corresponder los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad. Si la base es el consentimiento, puede retirarse. Dirige las solicitudes al contacto indicado arriba. También puedes acudir a la <a href="https://www.aepd.es/">Agencia Española de Protección de Datos</a> cuando sea la autoridad competente.</p>
+<p><span class="dato-pendiente">[COMPLETAR: procedimiento de atención, verificación de identidad proporcionada y respuesta a solicitudes]</span></p>
+<h2 id="medicion">Medición opcional de enlaces afiliados</h2><p>La medición está desactivada en esta entrega. No se carga ningún servicio de estadísticas. Si se configura en el futuro, se solicitará permiso para esta página antes de cargar el servicio propio de Umami. Rechazarlo no impedirá leer ni abrir los enlaces y el permiso no se guardará entre páginas.</p><p>El evento previsto solo incluye el identificador editorial del recurso y la ruta de la página, sin parámetros ni valores de formularios. La instalación del servicio puede recibir información técnica de la conexión; debe revisarse su configuración y alojamiento. Retirar el permiso detendrá nuevos eventos desde esta página, sin borrar por sí mismo datos ya recibidos.</p><p><span class="dato-pendiente">[COMPLETAR: responsable, instalación y ubicación de Umami, datos técnicos reales, finalidad, consentimiento, conservación, destinatarios, transferencias y ejercicio de derechos antes de habilitar la opción]</span></p><h2>Revisión antes de publicar</h2>
+<p><span class="dato-pendiente">[COMPLETAR: confirmar todos los tratamientos del alojamiento y servicios conectados, incluidos perfiles o decisiones automatizadas si los hubiera; adaptar o eliminar los apartados que no correspondan]</span></p>
+<p>Versión del borrador: 2 de noviembre de 2026. <span class="dato-pendiente">[COMPLETAR: fecha de revisión profesional y de publicación definitiva]</span></p>
+<section class="fuentes-legales"><h2>Fuentes de referencia</h2><ul><li><a href="https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807">RGPD · texto publicado en el BOE</a></li><li><a href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a11">LOPDGDD · transparencia e información</a></li><li><a href="https://www.aepd.es/derechos-y-deberes/conoce-tus-derechos/derecho-de-informacion">AEPD · derecho de información</a></li></ul><p>Consultadas el 2 de noviembre de 2026. La revisión profesional debe comprobar su aplicación al funcionamiento y a la titularidad reales del sitio.</p></section></article><div class="retorno"><div class="contenedor"><a class="enlace-sutil" href="../index.html">← Volver a Cartografías de lo Real</a></div></div></main><footer class="pie"><div class="contenedor pie-interior"><div><a class="marca" href="../index.html"><img class="marca-imagen" src="../assets/identidad/logos/cdlr-horizontal-hueso.svg" width="1060" height="150" alt="" aria-hidden="true"><span class="marca-texto">⌁ CARTOGRAFÍAS/DE LO REAL</span></a><p>Filosofía, tecnología y cultura después del futuro.</p></div><div><span>REVISTA INDEPENDIENTE · 2026</span><p>Ensayos y recorridos de lectura para pensar el presente.</p></div></div><nav class="contenedor pie-enlaces" aria-label="Proyecto e información legal"><ul><li><a href="../biblioteca/index.html">Biblioteca</a></li><li><a href="../sobre/index.html">Sobre CDLR</a></li><li><a href="../aviso-legal/index.html">Aviso legal</a></li><li><a href="../privacidad/index.html">Privacidad</a></li><li><a href="../afiliacion/index.html">Afiliación</a></li></ul></nav><!-- CDLR:MEDICION -->
+<!-- /CDLR:MEDICION --></footer></body></html>

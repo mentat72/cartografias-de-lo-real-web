@@ -1,0 +1,8 @@
+# CDLR · Generado desde config/seo.json
+# El noindex de las páginas de revisión debe permanecer accesible al rastreador.
+User-agent: *
+Allow: /
+Disallow: /cartografias-de-lo-real-web/config/
+Disallow: /cartografias-de-lo-real-web/herramientas/
+Disallow: /cartografias-de-lo-real-web/verificacion/
+Sitemap: https://mentat72.github.io/cartografias-de-lo-real-web/sitemap.xml
